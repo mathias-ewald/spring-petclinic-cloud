@@ -113,7 +113,7 @@
 		</dependency>
 
         <!-- FIXME override Wavefront SDK version to workaround issues when using a proxy -->
-        <dependency>
+       <!--  <dependency>
             <groupId>com.wavefront</groupId>
             <artifactId>wavefront-sdk-java</artifactId>
             <version>2.6.2</version>
@@ -122,7 +122,7 @@
             <groupId>com.wavefront</groupId>
             <artifactId>wavefront-opentracing-sdk-java</artifactId>
             <version>2.1.1</version>
-        </dependency>
+        </dependency> -->
 
 
 	</dependencies>
