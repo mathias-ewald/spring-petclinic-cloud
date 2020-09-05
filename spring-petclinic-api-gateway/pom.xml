@@ -152,7 +152,7 @@
 			<scope>test</scope>
 		</dependency>
 
-        <!-- FIXME override Wavefront SDK version to workaround issues when using a proxy -->
+        <!--   FIXME override Wavefront SDK version to workaround issues when using a proxy -->
         <dependency>
             <groupId>com.wavefront</groupId>
             <artifactId>wavefront-sdk-java</artifactId>
