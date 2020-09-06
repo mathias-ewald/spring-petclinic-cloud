@@ -1,0 +1,20 @@
+---
+apiVersion: indicatorprotocol.io/v1
+kind: IndicatorDocument
+
+metadata:
+  labels:
+    deployment: "customers-service"
+
+spec:
+  product:
+    name: pivot-oshopen,tanzu-tuesday,customers-service
+    version: 0.0.1
+
+  indicators:
+    - name: Total_Dogs
+      promql: 'avg(petclinic_pets_animals{source_id="$sourceId",type="dog"})'
+      documentation:
+        title: "Total number of dogs"
+      presentation:
+        units: "none"
